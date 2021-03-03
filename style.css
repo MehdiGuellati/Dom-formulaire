@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    max-width: 900px;
+    margin: auto;
+}
+
+#personnes{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.personne{
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.suppr{
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
